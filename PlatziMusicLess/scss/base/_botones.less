@@ -1,19 +1,19 @@
-p {
-  font-size: 1em;
-  color: #ea83ee;
-}
 .btn {
   display: inline-block;
   line-height: 2.2;
-  color: #ffffff;
+  color: @buttontxt;
+  background-color: @buttonbg;
   text-align: center;
   font-size: 16px;
   border: none;
   cursor: pointer;
   padding-left: 1em;
   padding-right: 1em;
-}
-.btn:hover {
-  text-decoration: none;
-  color: #ffffff;
+  &:hover{
+    text-decoration: none;
+    color: @buttontxt;
+  }
+  &--alert{
+    background-color: @color-alert;
+  }
 }
