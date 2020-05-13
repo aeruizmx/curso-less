@@ -1,5 +1,0 @@
-Instalacion
-npm install -g less
-
-Compilar archivo less
-lessc styles.less css/style.css
