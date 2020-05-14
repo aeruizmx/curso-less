@@ -1,0 +1,17 @@
+@colorDefault: gray;
+@color = lighten(@colorDefault, 80%);
+Opacar un color
+@colorDefault: gray;
+@color = darken(@colorDefault, 80%);
+Saturar un color
+@colorDefault: gray;
+@color = saturate(@colorDefault, 80%);
+Desaturar un color
+@colorDefault: gray;
+@color = desaturate(@colorDefault, 80%);
+(Ruleta) Girar un color
+@colorDefault: gray;
+@color = spin(@colorDefault, 80%);
+p{
+  color: @color;
+}
