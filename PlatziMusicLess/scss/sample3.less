@@ -1,0 +1,15 @@
+.responsive(@size) when (@size =< 1024px){
+  width: 100%;
+}
+.responsive(@size)when (@size > 1024px){
+  width: calc(~"50% -12px");
+  margin-right:12px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.article{
+  .responsive(800px);
+  color: black;
+}
